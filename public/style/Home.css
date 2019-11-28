@@ -1,0 +1,26 @@
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    text-align: center;   
+}
+.circle-container{
+    width: 100%;
+    color: white;
+}
+.circular--square {
+    border-radius: 50%;
+    width: 100%;
+    margin: 1%;
+  }
+
+.members {
+    background: #212529b5;
+    border-radius: 10px;
+    padding: 20px;
+    margin-right: 2%;
+}
+.img{
+    
+}

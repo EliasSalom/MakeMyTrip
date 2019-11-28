@@ -12,6 +12,8 @@ font-family: 'Numans', sans-serif;
 
 .container{
 height: 100%;
+width: 100%;
+max-width: 100%;
 align-content: center;
 }
 
