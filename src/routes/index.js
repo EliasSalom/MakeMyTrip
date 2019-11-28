@@ -24,6 +24,8 @@ router.get("/result", (req, res) => {
   res.render("result");
 });
 
-
+router.get("/ThankYou", (req, res) => {
+  res.render("ThankYou");
+});
 
 module.exports = router;
