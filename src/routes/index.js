@@ -20,5 +20,10 @@ router.get("/addtrip", (req, res) => {
   res.render("addtrip");
 });
 
+router.get("/result", (req, res) => {
+  res.render("result");
+});
+
+
 
 module.exports = router;
