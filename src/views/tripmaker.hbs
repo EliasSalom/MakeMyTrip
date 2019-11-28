@@ -5,31 +5,41 @@
                 <h3>Trip Maker</h3>
             </div>
             <div class="card-body">
-                <center>
-                <form class="col-md-4 text-center">
-                    <div>
-                        <select name="country" class="countries" id="countryId">
-                            <option value="">Select Country</option>
+                <form class="form-style">
+                    <select name="country" class="selectors countries" id="countryId">
+                        <option value="">Select Country</option>
+                    </select>
+                    <select name="state" class="selectors states" id="stateId">
+                        <option value="">Select State</option>
+                    </select>
+                    <select name="city" class="selectors cities" id="cityId">
+                        <option value="">Select City</option>
+                    </select>
+                    <div class="start-date">
+                        <select name="day" class="date-selectors start-day">
+                            <option value="">01</option>
                         </select>
-                        </div>
-                        <div>
-                        <select name="state" class="states" id="stateId">
-                            <option value="">Select State</option>
+                        <select name="month" class="date-selectors start-month">
+                            <option value="">01</option>
                         </select>
-                        </div>
-                        <div>
-                        <select name="city" class="cities" id="cityId">
-                            <option value="">Select City</option>
+                        <select name="year" class="date-selectors start-year">
+                            <option value="">2000</option>
                         </select>
-                        </div>
-                        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-                        <script src="//geodata.solutions/includes/countrystatecity.js"></script>
-              
-                    <div >
-                        <input type="submit" value="Start" class="btn float-right login_btn">
                     </div>
+                    <div class="end-date">
+                        <select name="day" class="date-selectors end-day">
+                            <option value="">01</option>
+                        </select>
+                        <select name="month" class="date-selectors end-month">
+                            <option value="">01</option>
+                        </select>
+                        <select name="year" class="date-selectors end-year">
+                            <option value="">2000</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Start" class="btn float-right login_btn">
                 </form>
-                </center>
+
             </div>
         </div>
     </div>
