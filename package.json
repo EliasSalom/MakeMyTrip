@@ -13,7 +13,7 @@
     "cookie": "^0.4.0",
     "cookie-parser": "^1.4.4",
     "env2": "^2.2.2",
-    "express": "^4.15.3",
+    "express": "^4.17.3",
     "express-handlebars": "^3.0.0",
     "jsonwebtoken": "^8.5.1",
     "pg": "^7.12.1",
